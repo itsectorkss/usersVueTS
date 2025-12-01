@@ -352,6 +352,11 @@ function handleHoverUser(user: UserModel | null) {
   overflow: hidden;
   z-index: 0;
 }
+.app__header-video-overlay {
+  width: 100%;
+  height: 100%; 
+  background-color: blueviolet;
+}
 
 .app__header-video video {
   width: 100%;
@@ -481,6 +486,10 @@ function handleHoverUser(user: UserModel | null) {
 
   .app__header-main p {
     font-size: 0.85rem;
+  }
+
+  .app__header-user {
+    display: none;
   }
 
   .app__content {
